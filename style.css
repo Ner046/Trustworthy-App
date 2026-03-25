@@ -193,9 +193,39 @@ select {
   General Styling
   ------------------------------------------
   */
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
 
+  h1{
+    font-size: var(--text-heading-primary);
+  }
+
+  h2{
+    font-size: var(--text-heading-secondary);
+    color: var(--text-heading-secondary);
+  }
+
+  h3{
+    font-size: var(--text-heading-teritary);
+  }
+
+
+  body{
+    font-size: var(--text-body);
+
+  }
    .grid-wrapper-left{
-    background-color:var(--background-secondary)
+    background-color: var(--background-secondary);
+    padding-inline: var(--size-400);
+  }
+
+  @media (min-width:80em){
+    .grid-wrapper-left{
+        padding-inline: var(--size-700);
+    }
+
   }
 
 
@@ -211,6 +241,78 @@ select {
 
   }
 
+  html, body {
+  height: 100%;
+  margin: 0;
+}
+
+  /*
+  ------------------------------------------
+  Buttons
+  ------------------------------------------
+  */
+
+
+
+  .offering-buttons{
+    display: flex;
+    gap: var(--size-100);
+  }
+
+  .offering-buttons li{
+    display: flex;
+    flex: 1
+
+  }
+
+  .offering-button{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: var(--accent-secondary);
+  padding-block: var(--size-200);
+  color: var(--black);
+  text-align: center;
+  border-radius: var(--size-100);
+  justify-content: center;
+  }
+
+
+  @media(min-width: 80em){
+    .offering-buttons li{
+      max-width: 7.5rem;
+    }
+  }
+
+  .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--size-100);
+}
+
+
+
+  /*
+  ------------------------------------------
+  cta
+  ------------------------------------------
+  */
+
+  /*Background-img*/
+
+  .cta{
+    background-image: url(images/main/download-phone.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-inline: var(--size-650);
+    padding-block-start: var(--size-800);
+    padding-block-end: var(--size-600);
+    height: 350px;
+  }
+
+
+
 
 
   /*
@@ -218,8 +320,6 @@ select {
   Utility Classes
   ------------------------------------------
   */
-  
-  
   
   .background-secondary{
     background-color: var(--background-secondary);
@@ -249,3 +349,30 @@ select {
     color: var(--text-subheading);
   }
 
+  .flex{
+    display: flex;
+  }
+
+  .gap-100{
+    gap: var(--size-100);
+  }
+
+   .gap-200{
+    gap: var(--size-200);
+  }
+
+   .gap-300{
+    gap: var(--size-300);
+  }
+
+   .gap-400{
+    gap: var(--size-400);
+  }
+
+   .gap-500{
+    gap: var(--size-500);
+  }
+
+
+
+  

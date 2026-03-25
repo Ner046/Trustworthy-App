@@ -13,11 +13,10 @@
 <body>
 
     <div class="grid-wrapper">
-    
+
+        <div class="grid-wrapper-left">
 
     <!--HEADER-->
-
-    <div class="grid-wrapper-left">
 
     <header>
         <nav>
@@ -29,49 +28,65 @@
         </div>
         <a href="#" class="text-primary">Get Started</a>
         </nav>
-
     </header>
 
-    <main>
-
-        <div class="background-secondary">
-             <h1>Money Transfers Made <span class="accent-primary-text">Simple</span></h1>
-             <p class="text-subheading">No personal credit checks or founder guarantee.</p>
-        </div>
-
-      
-        <div class="our-offering | background-secondary">
-            
-            <p class="accent-primary-text">Our offerings</p>
-
-            <a href="#instant-productivity">
-                <img src="images/icons/icon-bolt.svg">
-                Instant Productivity
-            </a>
-
-            <a href="#expense-management">
-                <img src="images/icons/Icon-globe.svg">
-                Expense Management</a>
-
-            <a href="#advanced-technology">
-                <img src="images/icons/Icon-shield.svg">
-                Advanced Technology</a>
-        </div>
-        <nav class="background-secondary">
-            <ul role="list">
-                <a href="#"><li>Contact</li></a>
-                <a href="#"><li>Social</li></a>
-                <a href="#"><li>Address</li></a>
-                 <a href="#"><li>Legal Terms</li></a>
-            </ul>
-
-        </nav>
-
+    
+    <div class="hero-intro">
+            <h1 class="text-white">Money Transfers Made <span class="accent-primary-text">Simple</span></h1>
+            <p class="text-subheading">No personal credit checks or founder guarantee.</p>
     </div>
 
 
+        <nav class="our-offering" aria-label="sidebar">
+
+        <p class="accent-primary-text">Our offerings</p>
+
+        <ul class="offering-buttons" role="list">
+
+        <li> <a href="#instant-productivity" class="offering-button">
+                <div class="content-wrapper">
+                <img src="images/icons/icon-bolt.svg" alt="">
+                <p>Instant Productivity</p>
+                </div>
+            </a> 
+        </li>
+        
+        <li> <a href="#expense-management" class="offering-button">
+                <div class="content-wrapper">
+                <img src="images/icons/Icon-globe.svg" alt="">
+                
+                <p>Expense Management</p>
+                </div>
+                </a>
+            </li>
+
+            <li> <a href="#advanced-technology" class="offering-button">
+                <div class="content-wrapper">
+                <img src="images/icons/Icon-shield.svg" alt="">
+
+                <p>Advanced Technology</p>
+                </div>
+                
+                </a>
+            </li>  
+        </ul>
+
+          <ul role="list" class="flex gap-200 accent-primary-text">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Address</a></li>
+                <li><a href="#">Legal Terms</a></li>
+            </ul>
+        </nav>
+    
+    </div>
+
+    
 
     <div class="grid-wrapper-right">
+
+
+    <main>
 
         <div class="hero">
             <img src="images/main/guy-phone.jpg">
@@ -80,11 +95,25 @@
 
         <div class="trustworthy-logo">
             <ul role="list">
-                <li>BuildRight</li>
-                <li>Blooming</li>
-                <li>Flowbot</li>
-                <li>Expor</li>
-                <li>Redo</li>
+                <li>
+                    <img src="images/logos/blooming-logo.svg" alt="blooming logo">
+                </li>
+
+                <li>
+                    <img src="images/logos/buildright-logo.svg" alt="buildright logo">
+
+                </li>
+
+                <li>
+                    <img src="images/logos/flowbot-logo.svg" alt="flowbot logo">
+                </li>
+
+                <li>
+                    <img src="images/logos/expor-logo.svg" alt="expor logo">
+                </li>
+                <li>
+                    <img src="images/logos/redo-logo.svg" alt="redo logo">
+                </li>
             </ul>
 
         </div>
@@ -110,7 +139,10 @@
 
                  <div class="bento-content">
 
-                <div class="text-heading"></div>
+                <div class="text-heading">
+                    <img src="images/icons/efficiency-graph.svg">
+
+                </div>
                 <p>Efficiency Increase Per Transfer</p>
                 
                 </div>
@@ -121,7 +153,10 @@
 
                 <div class="bento-content">
 
-                <div class="text-heading"></div>
+                <div class="text-heading">
+                    <img src="images/icons/centralize-finances.svg">
+                </div>
+
                 <p>Centralize Your Finances</p>
 
                 </div>
@@ -171,7 +206,7 @@
                 <ul role="list">
                     <li>
                         <div class="icon-information">
-                            <img src="">
+                            <img src="images/icons/safe-storage.svg">
                             <h3>Safe Storage</h3>
                         </div>
 
@@ -179,7 +214,7 @@
 
                        <li>
                         <div class="icon-information">
-                            <img src="">
+                            <img src="images/icons/secure-software.svg">
                             <h3>Secure</h3>
                         </div>
 
@@ -187,14 +222,14 @@
 
                        <li>
                         <div class="icon-information">
-                            <img src="">
+                            <img src="images/icons/earn-interest.svg">
                             <h3>Earn Interest</h3>
                         </div>
 
 
                        <li>
                         <div class="icon-information">
-                            <img src="">
+                            <img src="images/icons/family-plan.svg">
                             <h3>Family Plans</h3>
                         </div>
 
@@ -217,10 +252,8 @@
 
 
         </div>
-        
-        
-    </main>
 
+        </main>
 
     <footer>
 
@@ -232,7 +265,7 @@
             <a href="#">Terms & Conditions</a>
             <a href="#">Privacy</a>
 
-            <div class="contact links">
+            <div class="contact links ">
                 <a href="#">Contact</a>
                 <a href="#">hello@figma.com</a>
                 <a href="#">Instagram</a>
@@ -249,10 +282,6 @@
     </div>
 
     
-
-
-
-
 
 </body>
 
