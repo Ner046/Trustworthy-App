@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="background-secondary">
 
     <div class="grid-wrapper">
 
@@ -28,7 +28,7 @@
             <span class="text-white">Etran</span>
             </a>
         </div>
-        <a href="#" class="cta-button | text-primary">Get Started</a>
+        <a href="#" class="cta-button | text-primary text-captions-font">Get Started</a>
         </nav>
 
     </header>
@@ -87,61 +87,66 @@
 
     
 
-    <div class="grid-wrapper-right">
+    <div class="grid-wrapper-right | background-primary">
 
 
     <main>
 
-        <div class="hero">
-            <img src="images/main/guy-phone.jpg">
-            <h2 class="fs-500 text-center">We escalate transfer efficiency and productivity</h2>
+        <div class="hero |  padding-block-700">
+            <img src="images/main/guy-phone.jpg" class="hero-img border-radius-300">
+            <h2 class="text-teritary-font text-center"><span class="block">We escalate transfer efficiency</span> and productivity</h2>
         </div>
 
         <div class="trustworthy-logo">
-            <ul role="list">
-                <li>
-                    <img src="images/logos/blooming-logo.svg" alt="blooming logo">
+            <ul role="list" class="logo-wall | flex gap-200">
+                <li class="trust-logo">
+                    <img src="images/logos/blooming-logo.svg" alt="blooming logo" class="trust-logo-img">
                 </li>
 
-                <li>
-                    <img src="images/logos/buildright-logo.svg" alt="buildright logo">
+                <li class="trust-logo">
+                    <img src="images/logos/buildright-logo.svg" alt="buildright logo" class="trust-logo-img">
 
                 </li>
 
-                <li>
-                    <img src="images/logos/flowbot-logo.svg" alt="flowbot logo">
+                <li class="trust-logo">
+                    <img src="images/logos/flowbot-logo.svg" alt="flowbot logo" class="trust-logo-img">
                 </li>
 
-                <li>
-                    <img src="images/logos/expor-logo.svg" alt="expor logo">
+                <li class="trust-logo">
+                    <img src="images/logos/expor-logo.svg" alt="expor logo" class="trust-logo-img">
                 </li>
-                <li>
-                    <img src="images/logos/redo-logo.svg" alt="redo logo">
+
+                <li class="trust-logo">
+                    <img src="images/logos/redo-logo.svg" alt="redo logo" class="trust-logo-img">
                 </li>
             </ul>
 
         </div>
 
-        <div class="get-more" id="instant-productivity">
+        <div class="get-more | grid gap-300 padding-block-800" id="instant-productivity">
 
-            <div class="get-more__heading">
+            <div class="get-more__heading | grid gap-200">
 
             <h2 class="text-heading text-center">Get More Done In A Week</h2>
             <p class="text-secondary text-center">Maximize your productivity with smarter tools designed to streamline your workflow to automate tasks, stay organized</p>
 
             </div>
 
-            <div class="bento-container">
-                <div class="bento-row-1">
+            <div class="bento-container grid single-col even-col gap-200">
+                
+                <div class="bento-row-1 | flex flex-col gap-400">
 
-                <div class="bento-content">
+                <div class="bento-content | accent-primary-background border-radius-150">
 
-                <div class="img-header">2x</div>
+                <div class="img-header">
+                    <img src="images/icons/2x-productivity.svg">
+                </div>
+                
                 <p>Double Your Productivity</p>
 
                 </div>
 
-                 <div class="bento-content">
+                 <div class="bento-content | accent-primary-background border-radius-150">
 
                 <div class="img-header">
                     <img src="images/icons/efficiency-graph.svg">
@@ -153,9 +158,9 @@
 
                 </div>
 
-                   <div class="bento-row-2">
+                   <div class="bento-row-2 | flex flex-col gap-400">
 
-                <div class="bento-content">
+                <div class="bento-content | accent-primary-background border-radius-150">
 
                 <div class="imge-header">
                     <img src="images/icons/centralize-finances.svg">
@@ -164,9 +169,11 @@
 
                 </div>
 
-                 <div class="bento-content">
+                 <div class="bento-content | accent-primary-background border-radius-150">
 
-                <div class="img-header">130%</div>
+                <div class="img-header">
+                    <img src="images/icons/more-activity.svg">
+                </div>
                 <p>More Activity</p>
                 
                 </div>
@@ -177,22 +184,22 @@
 
         </div>
 
-        <div class="reliable-app" id="expense-management">
+        <div class="reliable-app | padding-block-700 md:padding-block-800 grid gap-500" id="expense-management">
             <h2 class="text-heading text-center">The Most Reliable App</h2>
 
-            <div class="even-col gap-200">
+            <div class="grid even-col gap-300 flex">
 
             <div class="benefit-container">
-                <img src="images/main/card.jpg" class="grid-image">
-                <p class="text-heading">Scale Your Team, Not Your Card Expenses</p>
-                <p class="text-secondary">Issue virtual and physical cards at no additional cost to support teams of any size.</p>
+                <img src="images/main/card.jpg" class="grid-image | margin-end-300 border-radius-150">
+                <h3 class="text-link-font text-heading text-bold-600">Scale Your Team, Not Your Card Expenses</h3>
+                <p class="text-link-font text-secondary">Issue virtual and physical cards at no additional cost to support teams of any size.</p>
 
             </div>
 
             <div class="benefit-container">
-                <img src="images/main/paper-tracking.jpg" class="grid-image">
-                <p class="text-heading">Effortless Paper Tracking, Mobile Convenience</p>
-                <p class="text-secondary">Get precise control—at scale—with the ability to lock any card and restrict any type of spend.</p>
+                <img src="images/main/paper-tracking.jpg" class="grid-image | margin-end-300 border-radius-150">
+                <h3 class="text-link-font text-heading text-bold-600">Effortless Paper Tracking, Mobile Convenience</h3>
+                <p class="text-link-font text-secondary">Get precise control—at scale—with the ability to lock any card and restrict any type of spend.</p>
                 
             </div>
             
@@ -200,49 +207,54 @@
 
         </div>
 
+        <!-- <div class="image-container | padding-block-750 md:padding-block-900">
+            <img src="images/main/reliable-app.jpg" class="background-img | border-radius-150">
+        </div> -->
         <div class="image-container">
-            <img src="images/main/reliable-app.jpg">
+
+        <div class="background-img"></div>
+
         </div>
 
-        <div class="first-class" id="advanced-technology">
+        <div class="first-class | grid gap-500" id="advanced-technology">
 
-            <div class="first-class__heading text-center">
+            <div class="first-class__heading | text-center grid gap-200">
                 
             <h2 class="text-heading">First Class Software</h2>
-            <p class="text-secondary">Get real-time insights, seamless transactions, and advanced tools to manage your wealth effortlessly.</p>
+            <p class="text-secondary text-link-font">Get real-time insights, seamless transactions, and advanced tools to manage your wealth effortlessly.</p>
 
             </div>
 
             <div class="icons">
                 
-                <ul role="list" class="flex-lg gap-700">
+                <ul role="list" class="first-class__icons | flex flex-col md-flex-row gap-500 gap-700-md">
                     <li>
-                        <div class="icon-information">
+                        <div class="icon-information gap-200">
                             <img src="images/icons/safe-storage.svg">
-                            <h3>Safe Storage</h3>
+                            <h3 class="text-link-font text-bold-600">Safe Storage</h3>
                         </div>
 
                     </li>
 
                        <li>
-                        <div class="icon-information">
+                        <div class="icon-information gap-200">
                             <img src="images/icons/secure-software.svg">
-                            <h3>Secure</h3>
+                            <h3 class="text-link-font text-bold-600">Secure</h3>
                         </div>
 
                     </li>
 
                        <li>
-                        <div class="icon-information">
+                        <div class="icon-information gap-200">
                             <img src="images/icons/earn-interest.svg">
-                            <h3>Earn Interest</h3>
+                            <h3 class="text-link-font text-bold-600">Earn Interest</h3>
                         </div>
 
 
                        <li>
-                        <div class="icon-information">
+                        <div class="icon-information gap-200">
                             <img src="images/icons/family-plan.svg">
-                            <h3>Family Plans</h3>
+                            <h3 class="text-link-font text-bold-600">Family Plans</h3>
                         </div>
 
                     </li>
@@ -257,9 +269,8 @@
         <div class="cta">
 
             <div class="cta-content">
-                <p class="text-white">Download Etran and manage everything from your phone.</p>
-                <a href="#" class="cta-button">Get Started</a>
-
+                <h2 class="text-white text-teritary-font"><span class="block">Download Etran and</span> <span class="block">manage everything</span> from your phone.</h2>
+                <a href="#" class="cta-button |  text-captions-font">Get Started</a>
             </div>
 
 
@@ -267,14 +278,15 @@
 
         </main>
 
-    <footer>
+    <footer class=" trustworthy-footer | background-tertiary padding-block-600">
 
         <div class="leftside-footer">
-            <img src="images/icons/etran-logo-black.svg">
+            <img src="images/icons/etran-logo-black.svg" width="48.48" height="53.99">
+            <h2>Etran</h2>
         </div>
 
-        <div class="rightside-footer">
-            <div class="terms-conditions">
+        <div class="rightside-footer text-bold-600">
+            <div class="terms-conditions | flex flex-col">
             <a href="#" class="text-secondary">Terms & Conditions</a>
             <a href="#" class="text-secondary">Privacy</a>
             </div>
@@ -285,9 +297,10 @@
                     <a href="#" class="text-secondary">Contact</a>
             </div>
 
-            <div class="contact-links">
+            <div class="contact-links | flex flex-col">
                 <a href="#">hello@figma.com</a>
                 <a href="#">Instagram</a>
+                <a href="#">X</a>
                 <a href="#">LinkedIn</a>
             </div>
                
@@ -299,8 +312,6 @@
     </div>
 
     </div>
-
-    
 
 </body>
 
