@@ -4,7 +4,7 @@ ehthumbs.db
 Desktop.ini
 
 .vscode/
-.idea/              # if you ever use IntelliJ/WebStorm
+.idea/             
 *.sublime-*
 
 *~
