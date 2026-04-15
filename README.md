@@ -17,7 +17,6 @@ Website created by following a figma design, the technologies that were used are
 - Clean modern design following figma template
 - desktop sidebar
 
-
 ## Technologies Used
 
 - HTML5
